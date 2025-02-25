@@ -20,7 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # importante para el desplieg de la aplicación en este caso Vercel
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+WSGI_APPLICATION = 'api.wsgi.app'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
