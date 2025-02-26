@@ -1,4 +1,5 @@
   {
+    
     "builds": [{
         "src": "myproject/wsgi.py",
         "use": "@ardnt/vercel-python-wsgi",
@@ -6,8 +7,8 @@
     }],
     "routes": [
         {
-            "src": "/(.*)",
-            "dest": "myproyect/wsgi.py"
+            "source": "/(.*)",
+            "destination": "myproyect/wsgi.py"
         }
     ]
 }
