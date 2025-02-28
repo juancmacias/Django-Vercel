@@ -20,7 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # importante para el desplieg de la aplicación en este caso Vercel
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["0.0.0.0", "localhost", "127.0.0.1"]
 WSGI_APPLICATION = 'api.wsgi.app'
 
 # Quick-start development settings - unsuitable for production
