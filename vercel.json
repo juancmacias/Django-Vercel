@@ -8,7 +8,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "myproyect/wsgi.py"
+            "dest": "admin.py"
         }
     ]
 }
